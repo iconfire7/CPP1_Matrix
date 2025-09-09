@@ -141,10 +141,11 @@ Shuningdek, yuqoridagi operatsiyalarga qisman mos keladigan quyidagi operatorlar
 - Dastur kodi src papkasida joylashgan bo'lishi kerak.
 - Kod yozishda Google Style ga amal qilinishi kerak.
 - Matritsani `S21Matrix` sinfi sifatida amalga oshiring
-- Faqat `matrix_`, `rows_` va `cols_` shaxsiy maydonlarini saqlang.
+- Faqat `double** matrix_`, `int rows_` va `int cols_` shaxsiy maydonlarini saqlang.
 - accessor va mutator orqali `rows_ `va `cols_` shaxsiy maydonlariga kirishni amalga oshiring. Hajmi kattalashganda, matritsa nol elementlar bilan to'ldiriladi, kichiklashganida esa ortiqchalari shunchaki tashlab yuboriladi.
 - Yechimni statik kutubxona sifatida loyihalang (s21\_matrix\_oop.h sarlavhali fayl bilan).
 - [Yuqorida](#matritsalar-ustida-amallar) tavsiflangan amallarni bajaring.
 - [Yuqoridagi](#matritsalar-ustida-amallar) bo'limdagi jadvalga muvofiq operatorlarni qayta yuklang.
 - GTest kutubxonasidan foydalanib, kutubxona funksiyalarining to'liq unit-testlar bilan qoplanishini tayyorlang.
 - Kutubxona va testlarni to’plash uchun Makefile faylini nazarda tuting (all, clean, test, s21_matrix_oop.a maqsadlari bilan).
+- STL konteynerlari taqiqlangan.

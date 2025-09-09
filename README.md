@@ -148,10 +148,11 @@ And you also need to overload the following operators, partly corresponding to t
 - The program code must be located in the src folder;
 - When writing code it is necessary to follow the Google style;
 - Implement the matrix as an `S21Matrix` class;
-- Use only the `matrix_`, `rows_` and `cols_` fields as private;
+- Use only the `double** matrix_`, `int rows_` and `int cols_` fields as private;
 - Implement the access to private fields `rows_` and `cols_` via accessor and mutator. If the matrix increases in size, it is filled with zeros. If it decreases in size, the excess is simply discarded;
 - Make it as a static library (with s21_matrix_oop.h header file);
 - Implement the operations described [above](#matrix-operations);
 - Overload the operators according to the table in the chapter [above](#matrix-operations);
 - Prepare full coverage of library functions code with unit-tests using the GTest library;
 - Provide a Makefile for building the library and tests (with targets all, clean, test, s21_matrix_oop.a).
+- STL containers are forbidden.

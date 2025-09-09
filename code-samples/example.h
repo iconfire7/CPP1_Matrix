@@ -18,8 +18,8 @@ public:
 
     // some operators overloads
     S21Matrix& operator=(const S21Matrix& o);                   // assignment operator overload
-    int& operator()(int row, int col);                          // index operator overload
-    int& operator()(int row, int col) const;
+    double& operator()(int row, int col);                       // index operator overload
+    double& operator()(int row, int col) const;
     S21Matrix& operator+=(const S21Matrix& o);                            
     S21Matrix operator+(const S21Matrix& o);
     S21Matrix& operator-=(const S21Matrix& o);
