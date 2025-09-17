@@ -54,3 +54,7 @@ dkms.conf
 .DS_Store
 .DS_Store?
 ._*
+
+# CMake build directory
+build/
+_build/
